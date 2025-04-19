@@ -56,11 +56,34 @@
     padding: 1rem;
     border-radius: 10px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
   }
   .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 20px rgba(0, 255, 213, 0.3);
   }
+  .project-links a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .project-links a:visited,
+  .project-links a:active{
+    color: inherit;
+  }
+
+  .project-links a:hover{
+    transform: translateY(-5px);
+  }
+
   .contact-form {
     display: flex;
     flex-direction: column;
