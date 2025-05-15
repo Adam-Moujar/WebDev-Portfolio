@@ -121,3 +121,10 @@ section {
 	border-radius: 5px;
 	cursor: pointer;
 }
+
+#contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding-top: 1em;
+}
